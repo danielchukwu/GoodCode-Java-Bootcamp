@@ -1,13 +1,8 @@
-// 1ST
+// ORDER: 2nd
 
-// TOPIC - Threads
-// sleep(): This sleeps and then continues
-// wait():  This sleeps and then dies
-// setDaemon: This is how applications after being closed can still use up your system resources
-//            Ex. whatsapp alert messages, instagram activities
+// WHAT DOES THIS CODE DO?
+// This code uses the **implements Runnable way of creating a thread and it creates a thread that 
 
-// Thread Priority
-// If 2 threads with priority 1 and 7 want to access a particular resource at the same time, they will enter a deadlock state
 public class Demo implements Runnable {
 
    Thread myThread;
@@ -25,11 +20,11 @@ public class Demo implements Runnable {
       for (int i = 1; i < 10; i++) {
             System.out.println(i);
             try {
-               myThread.sleep(1000);
-//                myThread.setPriority();
-//                myThread.setName();
-//                myThread.getName();
-//                myThread.setDaemon(true);
+               myThread.sleep(1000);    // stop/pause code here for 1000 milliseconds(1000milliseconds = 1 second)
+               // myThread.setPriority();
+               // myThread.setName();
+               // myThread.getName();
+               // myThread.setDaemon(true);
             } catch (InterruptedException e) {
                throw new RuntimeException(e);
             }
@@ -43,3 +38,11 @@ public class Demo implements Runnable {
       demo.startThread();
    }
 }
+
+
+// METHODS: Used above explanation
+// sleep(): This sleeps and then continues
+// wait():  This sleeps and then dies
+// setDaemon():   This is how applications after being closed can still use up your system resources
+//                Ex. whatsapp alert messages, instagram activities
+// setPriority(): 2 threads with priority 1 and 7 want to access a particular resource at the same time, they will enter a deadlock state
