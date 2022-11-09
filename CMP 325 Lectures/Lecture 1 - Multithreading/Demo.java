@@ -42,7 +42,8 @@ public class Demo implements Runnable {
 
 // METHODS: Used above explanation
 // sleep(): This sleeps and then continues
-// wait():  This sleeps and then dies
+// wait():  This sleeps and then dies(stops the program)
+// setName():     This sets the name of the thread instance/object
 // setDaemon():   This is how applications after being closed can still use up your system resources
 //                Ex. whatsapp alert messages, instagram activities
 // setPriority(): 2 threads with priority 1 and 7 want to access a particular resource at the same time, they will enter a deadlock state
