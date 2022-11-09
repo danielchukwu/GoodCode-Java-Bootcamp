@@ -33,6 +33,17 @@ public class HelloJava {
 
 
 2. Write a Java Program that prints your first name as is shown below?
+Difficulty: Easy / Medium
+>> DDDDDD
+>> DD   DD
+>> DD   DD
+>> DD   DD
+>> DD   DD
+>> DD   DD
+>> DDDDDD
+
+
+Difficulty: Professional (Not Required)
 >> DDDDDD          AA          NNN     NN     IIIIII    EEEEEEEEE     LL
 >> DD   DD        AAAA         NNNN    NN       II        EE          LL
 >> DD   DD       AA  AA        NN NN   NN       II        EE          LL
@@ -40,6 +51,7 @@ public class HelloJava {
 >> DD   DD     AAAAAAAAAA      NN   NN NN       II        EE          LL
 >> DD   DD    AA        AA     NN    NNNN       II        EE          LL
 >> DDDDDD    AA          AA    NN     NNN     IIIIII    EEEEEEEEE     LLLLLLL
+
 
 
 Solution
