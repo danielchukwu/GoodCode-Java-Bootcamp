@@ -1,4 +1,6 @@
-// SEMANTICS: This program is a deadlock simulation program where you have two processes/threads that want to accesses 
+// ORDER: 3rd
+
+// OBJECTIVE: This program is a deadlock simulation program where you have two processes/threads that want to accesses 
 //            a particular thread & they are holding each other back
 
 public class DeadLock {
