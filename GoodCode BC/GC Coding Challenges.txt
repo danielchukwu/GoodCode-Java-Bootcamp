@@ -1,0 +1,57 @@
+Coding Challenge
+
+Note: You are only required to do the one that has a difficulty of easy, anyother is optional.
+
+1. Write a java program that prints the below knock knock joke to the console
+
+Difficulty: Easy / Medium
+>> Knock, knock.
+>> Who’s there?
+>> Roach.
+>> Roach who?
+>> Roach you a letter, and I’m putting it in your mailbox!
+
+Dificulty: Professional (Not Required)
+>> Knock, knock.
+>> Who’s there?
+>> <users input>     // Take users input
+>> <users input> who?
+>> <users input> you a letter, and I’m putting it in your mailbox!
+
+Solution
+public class HelloJava {
+   public static void main (String[] args){
+      // Challenge 1
+      System.out.println("Knock, Knock.");
+      System.out.println("Who's there?");
+      System.out.println("Roach.");
+      System.out.println("Roach who?");
+      System.out.println("Roach you a letter, and I'm putting it in your mailbox!");
+   }
+}
+
+
+
+2. Write a Java Program that prints your first name as is shown below?
+>> DDDDDD          AA          NNN     NN     IIIIII    EEEEEEEEE     LL
+>> DD   DD        AAAA         NNNN    NN       II        EE          LL
+>> DD   DD       AA  AA        NN NN   NN       II        EE          LL
+>> DD   DD      AA    AA       NN  NN  NN       II        EEEEEEE     LL
+>> DD   DD     AAAAAAAAAA      NN   NN NN       II        EE          LL
+>> DD   DD    AA        AA     NN    NNNN       II        EE          LL
+>> DDDDDD    AA          AA    NN     NNN     IIIIII    EEEEEEEEE     LLLLLLL
+
+
+Solution
+public class HelloJava {
+   public static void main (String[] args){
+      // Challenge 2
+      System.out.println("DDDDDD          AA          NNN     NN     IIIIII    EEEEEEEEE     LL");
+      System.out.println("DD   DD        AAAA         NNNN    NN       II        EE          LL");
+      System.out.println("DD   DD       AA  AA        NN NN   NN       II        EE          LL");
+      System.out.println("DD   DD      AA    AA       NN  NN  NN       II        EEEEEEE     LL");
+      System.out.println("DD   DD     AAAAAAAAAA      NN   NN NN       II        EE          LL");
+      System.out.println("DD   DD    AA        AA     NN    NNNN       II        EE          LL");
+      System.out.println("DDDDDD    AA          AA    NN     NNN     IIIIII    EEEEEEEEE     LLLLLLL");
+   }
+}
