@@ -1,7 +1,7 @@
 // ORDER: 2nd
 
-// WHAT DOES THIS CODE DO?
-// This code uses the **implements Runnable way of creating a thread and it creates a thread that 
+// NOTE
+// This code uses the **implements Runnable way of creating a thread
 
 public class Demo implements Runnable {
 
