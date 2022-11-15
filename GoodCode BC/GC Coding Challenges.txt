@@ -32,8 +32,9 @@ public class HelloJava {
 
 
 
-2. Write a Java Program that prints your first name as is shown below?
-Difficulty: Easy / Medium
+2. CODING CHALLENGE 
+a. Difficulty: Easy / Medium
+Write a Java Program that prints the character of your first name as is shown below?
 >> DDDDDD
 >> DD   DD
 >> DD   DD
@@ -43,7 +44,8 @@ Difficulty: Easy / Medium
 >> DDDDDD
 
 
-Difficulty: Professional (Not Required)
+Write a Java Program that prints your first name in full as is shown below?
+b. Difficulty: Hard (Not Required)
 >> DDDDDD          AA          NNN     NN     IIIIII    EEEEEEEEE     LL
 >> DD   DD        AAAA         NNNN    NN       II        EE          LL
 >> DD   DD       AA  AA        NN NN   NN       II        EE          LL
@@ -67,3 +69,340 @@ public class HelloJava {
       System.out.println("DDDDDD    AA          AA    NN     NNN     IIIIII    EEEEEEEEE     LLLLLLL");
    }
 }
+
+
+
+3. CODING CHALLENGE 
+a. Difficulty: Easy / Medium
+Using a single variable of type int. write a program that prints
+>> Naira to Dollar Conversion
+>> Passengers in a really long bus: 59
+>> Passengers in a really long bus: 101
+>> Passengers in a really long bus: 20
+>> Passengers in a really long bus: 49
+>> Passengers in a really long bus: 60
+
+b. Difficulty: Hard (Not Required)
+Using two variables of type decimal and decimal. Write a program that prints
+>> GoodCode Black Market Exchange Rate (Naira to Dollar Conversion)
+>> Exchange rate is now: 1 naira to 900  dollars
+>> Exchange rate is now: 2 naira to 1800 dollars
+>> Exchange rate is now: 0.5 naira to 450 dollars
+>> Exchange rate is now: 1.5 naira to 1,350 dollars
+>> Exchange rate is now: 7.5 naira to 6,750 dollars
+
+
+4. CODING CHALLENGE
+
+a. Difficulty: Easy/Medium
+write a java program that uses the following variables (my name, my state of origin, where i live, my age, my height, my favorite alphabet), with the correct data type and variable naming convention. 
+Write a program that prints the below?
+
+>> Hello there my name is Daniel
+>> I am from Enugu but I stay in Abuja
+>> I happen to be in my 20's
+>> I am 190.5 centimeters in height
+>> And my favorite alphabet is 'W'
+
+>> This program was written by 'Daniel'
+
+
+b. Difficulty: Hard
+Using 8 variables and ONLY 1 print statement personalize the below bio?
+>> My name is Daniel. I'm 20 something years old, and I'm from Enugu.
+>> My favorite sport is Basketball. I play for at least 2 hours a day. When I'm tired, I like to watch movies.
+>> In school, my favorite place to get food from is Testimony. They sell the best moi moi
+
+>> This program was written by 'Daniel'
+
+
+
+
+5. CODING CHALLENGE
+
+a. Easy
+Add the data type for the below lines of code?
+? first = 50;
+? second = "Daniel";
+? third = 1.04;
+? fourth = true;
+? fifth = 7000000000L;
+? sixth = 'D';
+
+Tip: (If you are feeling confident don't use these tips)
+2 Things are wrong with line 1.
+3 things are wrong with line 2.
+2 things are wrong with line 3.
+2 things are wrong with line 4.
+
+
+b. Medium (optional)
+The below lines of code have some issues. Fix them
+int number = 5.2
+string name = 'your name'
+char grade = 'AA'
+int newnumber = 7000000000;
+
+
+c. Bonus (optional)
+What is the difference between the 'char' data and the 'String' data type?
+When do we use Char over String?
+
+
+6. CODING CHALLENGE
+
+a. Easy/Medium
+Give me an example use case for the below data types?
+int, long
+float, double
+String, char
+
+b. Hard
+What will be the output of the below lines of code if ran?
+double divisor = 5;
+divisor += 20;
+divisor -=5
+divisor *=4
+divisor /= 2
+
+20 % 2
+5++
+10--
+
+25 / 5 + 10
+25 / (5 + 10)
+
+12 - 7 * 10
+(12 - 7) * 10
+
+System.out.println("Paul George and Kawhi Leonard scored " + 24 + 34 + " points last night. What a duo.")
+
+
+6. CODING CHALLENGE
+
+Final Project
+Build a food ordering system for NGK That takes users input and wprks as shown below
+
+// Price of stuffs
+// 1 meat = 100
+// 1 fish = 200
+// 1 plate of rice = 400
+// 1 plate of spaghetti = 350
+// 1 meat = 100
+// 1 fanta, 1 coke, 1 sprite = 200
+// Card pin = 0000
+
+>> What is your name?
+>> Daniel
+>> 
+>> What would you like to buy?   // Rice, spaghetti
+>> Rice
+>> 
+>> How many plates of Rice?   // 0 not allowed
+>> 2
+>> 
+>> Would you like meat or fish?   // no, meat, or fish
+>> meat
+>> 
+>> How many meat or fish would you like?   // 0 not allowed
+>> 4
+>> 
+>> Which drink do you have in mind?   // fanta, coke, sprite
+>> fanta
+>> 
+>> How many fanta would you like?    // 0 not allowed
+>> 1
+>> 
+>> Total Expense
+>> Rice = N800
+>> Meat = N400
+>> Fanta = N200
+>> 
+>> Your total cost is N1400 😁.
+>> 
+>> Method of payment?   // card or cash
+>> card
+>> 
+>> Enter card pin?
+>> 0000
+>> 
+>> Purchase successful
+>> Thanks for coming to NGK. Have a great day!🙏
+>> 
+>> This program was written by Software Engineer Daniel.
+
+
+# Tip: Feel free to use your name instead of mine
+
+
+
+6. CODING CHALLENGE
+
+a. Difficulty: Easy
+What will be the result of the below code after being ran?
+
+boolean comparison1 = 2 > 3;
+boolean comparison2 = 10 < 5;
+boolean comparison3 = 20 == 20;
+boolean comparison4 = 7 != 10;
+boolean comparison5 = 4 > -1;
+boolean comparison6 = 11 >= 11;
+boolean comparison7 = 8 <= 8;
+
+
+b. Difficulty: Medium
+Write a program that registers a user by taking username, password and confirm passord?
+Note: Password and confirm password have to be the same, if they aren't registration should'nt be successful.
+
+>> Register Today
+>> Enter Username:
+>> sleazy
+>> 
+>> Enter Password:
+>> pass12345
+>> 
+>> Confirm Password:
+>> pass1234
+>> 
+>> Passwords did not match    // Or "Passwords Matched!. Registration Successful." if they did match
+
+
+c. Difficulty: Hard
+Write a Grading System Program that takes a the name and grade of a user and then shows the below?
+
+>> What is your name?
+>> <name>
+
+// 1st option(must be 100) 
+>> Enter your Grade
+>> 100
+>> GRADE A. There is no way you are normal with a score LIKE THAT <name>.
+
+// 2nd option(70 - 99)
+>> Enter your Grade
+>> 75
+>> GRADE A. This is amazing. I must say I wasn't expecting this <name>.
+
+
+// 2rd option(60 - 69)
+>> Enter your Grade
+>> 60
+>> GRADE B. Just fantastic, You really did a great job <name>.
+
+// 5th option(50 - 59)
+>> Enter your Grade
+>> 55
+>> GRADE C. Not bad. I guess, but you can do better <name>.
+
+
+// 6th option(40 - 49)
+>> Enter your Grade
+>> 45
+>> GRADE D. What was that <name>.
+
+
+// 7th option(0 - 39)
+>> Enter your Grade
+>> 33
+>> GRADE F (carryover). Mr/Mrs <name>. Comeback next year and try again.
+
+
+
+
+7. CODING CHALLENGE
+
+a. Difficulty: Medium/Hard
+>> Create a Trivial Pursuit Program using java, use a Scoreboard to keep track of users response.
+>>
+>> What does “www” stand for in a website browser?  // World Wide Web
+>> Ans: web world wide
+>> Feedback: You are wrong, the correct answer is World Wide Web
+>> Scoreboard: 0/15
+>>
+>> How many languages are written from right to left?  // 12
+>> Ans: 12
+>> Feedback: You are correct, it's actually 12
+>> Scoreboard: 1/15
+>> 
+>> Who named the Pacific Ocean?  // Ferdinand Magellan
+>> Ans: Ferdinand Magellan
+>> Feedback: You are correct, it's actually Ferdinand Magellan
+>> Scoreboard: 2/15
+>> 
+>> What is the name of the biggest technology company in South Korea?  // Samsung
+>> Ans: Tesla
+>> Feedback: You are wrong, the correct answer is Samsung
+>> Scoreboard: 2/15
+>> 
+>> Which animal can be seen on the Porsche logo?  // Horse
+>> Ans: Horse
+>> Feedback: You are correct, it's actually Horse
+>> Scoreboard: 3/15
+>> 
+>> The first dictionary was written by?  // Robert Cawdrey
+>> Ans: John Stellar
+>> Feedback: You are wrong, the correct answer is Robert Cawdrey
+>> Scoreboard: 3/15
+>> 
+>> which year did michael jackson die?  // 2009
+>> Ans: 2009
+>> Feedback: You are correct, it's actually 2009
+>> Scoreboard: 4/15
+>> 
+>> when did lebron win his last ring?  // 2020
+>> Ans: 2019
+>> Feedback: You are wrong, the correct answer is 2020
+>> Scoreboard: 4/15
+>> 
+>> when did messi win his second to the last ballon d'or?  // 2015
+>> Ans: 2015
+>> Feedback: You are correct, it's actually 2015
+>> Scoreboard: 5/15
+>> 
+>> Which country consumes the most chocolate per capita?  // Switzerland
+>> Ans: Switzerland
+>> Feedback: You are correct, it's actually Switzerland
+>> Scoreboard: 6/15
+>> 
+>> What was the first soft drink in space?  // Coca Cola
+>> Ans: Coca Cola
+>> Feedback: You are correct, it's actually Coca Cola
+>> Scoreboard: 7/15
+>> 
+>> Which weigh class is kamaru usman?  // Welterweight
+>> Ans: Welterweight
+>> Feedback: You are correct, it's actually Welterweight
+>> Scoreboard: 8/15
+>> 
+>> What is the most consumed manufactured drink in the world?  // Tea
+>> Ans: Fanta
+>> Feedback: You are wrong, the correct answer is Tea
+>> Scoreboard: 8/15
+>> 
+>> Which is the only edible food that never goes bad?  // Honey
+>> Ans: Honee
+>> Feedback: You are wrong, the correct answer is Honey
+>> Scoreboard: 8/15
+>> 
+>> Which country invented ice cream?  // China
+>> Ans: Nigeria
+>> Feedback: You are wrong, the correct answer is China
+>> Scoreboard: 8/15
+>> 
+>> RESULT
+>> FINAL SCORE: 8/15
+>> PERCENTAGE:  53.3%
+>> 
+>> That was okay I guess👍.
+>> 
+>> This program was written by Daniel
+
+
+Note:
+if percentage falls inbetween
+(0  - 20) print You've got to be kidding me. I could ban you, you know! 😡.
+(21 - 40) print Well quater bread is better than none I guess 🍞.
+(41 - 60) print That was okay I guess👍.
+(61 - 80) print My man, We need more people like you 🍷.
+(81 - 99) print Wow, We've got ourselves a GOAT 🐐.
+(  100  ) print UNBELIEVABLE, We've got ourselves a CHAMPION 🏆.
