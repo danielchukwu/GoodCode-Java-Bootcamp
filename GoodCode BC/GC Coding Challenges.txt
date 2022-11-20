@@ -178,7 +178,7 @@ divisor /= 2
 System.out.println("Paul George and Kawhi Leonard scored " + 24 + 34 + " points last night. What a duo.")
 
 
-6. CODING CHALLENGE
+6. CODING CHALLENGE 
 
 Final Project
 Build a food ordering system for NGK That takes users input and wprks as shown below
@@ -236,7 +236,7 @@ Build a food ordering system for NGK That takes users input and wprks as shown b
 
 
 
-6. CODING CHALLENGE
+6. CODING CHALLENGE (Module 6: Tutorial 1 - 5)
 
 a. Difficulty: Easy
 What will be the result of the below code after being ran?
@@ -309,7 +309,7 @@ Write a Grading System Program that takes a the name and grade of a user and the
 
 
 
-7. CODING CHALLENGE
+7. CODING CHALLENGE (Module 6: Tutorial 5 - 10)
 
 a. Difficulty: Medium/Hard
 >> Create a Trivial Pursuit Program using java, use a Scoreboard to keep track of users response.
@@ -406,3 +406,188 @@ if percentage falls inbetween
 (61 - 80) print My man, We need more people like you 🍷.
 (81 - 99) print Wow, We've got ourselves a GOAT 🐐.
 (  100  ) print UNBELIEVABLE, We've got ourselves a CHAMPION 🏆.
+
+
+
+
+8. CODING CHALLENGE (Module 6: Tutorial 11 - 15)
+
+Difficulty: Easy/Medium
+Write a program that asks a user to input the month number they were born in (e.g 1 = January, 2 = Feburary e.t.c)
+and when they do so that month should be printed out as shown below (Note: Use a switch-case statement and not an if-else statement)
+
+>> What is Your Full Name?
+>> Chukwu Daniel
+
+>> Which month of the year were you born in?
+>> 5
+
+>> Chukwu Daniel was given birth to in the month of May
+
+
+Difficulty: Hard
+Write a program that asks a user to input
+- the month number they were born in (e.g 1 = January, 2 = Feburary, ...),   // use switch not if-else
+- the year they were born in (e.g 2005, 2000, ...),
+- the week number they were born in (e.g1 = 1st week, 2 = 2nd week, ...),    // use switch not if-else
+- the day of the week they were born in (e.g 1 = Monday, 2 = Tuesday, ...)   // use switch not if-else
+(Note: Use a switch-case statement and not an if-else statement)
+
+>> What is Your Full Name?
+>> Chukwu Daniel
+
+>> Which month of the year were you born in?
+>> 5
+
+>> Which year were you born in?
+>> 1999
+
+>> Which week were you born in?
+>> 1
+
+>> Which day of the week were you born in?
+>> 2
+
+>> Chukwu Daniel was given birth to on a Tuesday in the 1st Week of May 1999
+
+
+
+
+9. CODING CHALLENGE (Module 6: Tutorial 16 - 19)
+
+a. Difficulty: Easy/Medium
+Create a little CBT program that ask's questions as such shown below
+
+>> Enter Your Matric Number: 
+>> BHU/20/04/05/0010
+
+>> Enter Password (Default is Bingham@123):
+>> Bingham@123
+
+ 
+>> 1. In the series cobra kai, what is the name of Mr Larusso's Daughter?   // Sam + 2
+>>     a) Madeline
+>>     b) Joyce
+>>     c) Sam
+>>     d) Jane
+>> Ans: c
+
+>> 2. Which country has the most skillful footballers?   // Brazil + 2
+>>     a) France
+>>     b) Brazil
+>>     c) Germany
+>>     d) Spain
+>> Ans: b
+
+>> 3. What year did lectures commence in bingham?  // c is wrong
+>>     a) 2003
+>>     b) 2002
+>>     c) 2005
+>>     d) 2006
+>> Ans: c
+
+>> 4. What month was Christiano Ronaldo given birth in?   // b is wrong
+>>     a) February
+>>     b) May
+>>     c) September
+>>     d) April
+>> Ans: b
+
+>> 5. When did Nigeria win their last World Cup?   // a is wrong
+>>     a) 1893
+>>     b) 1978
+>>     c) 1983
+>>     d) Never
+>> Ans: a
+
+>> Your Final Score is 4/10
+>> I know for a fact that you can do better than that. Carry over   // if score > 50% then print Wow, You know your stuff!. 
+
+
+b. Difficulty: Hard
+Write a job interview simulation program  // (use delimeters for int and string values only if you know what i mean)
+
+What is your name?
+Daniel
+
+Which school did you graduate from?
+Bingham University
+
+Which year did you start Bingham University?
+2020
+
+When did you graduate from Bingham University?
+2024
+
+Which position would you like if given a job?   // Frontend, Backend, or Full-stack
+Frontend
+
+What is your GPA?
+3.4
+
+Congratulations Daniel, You've been handed a job offer at <This Company> as a Fronted Engineer.
+Your Pay: $4000 monthly
+
+CONSTRAINTS (on Job Offers)
+No Offer   gpa must be lower than 3.0
+Frontend   gpa must be above 3.0
+Backend    gpa must be above 3.5
+Full-stack gpa must be above 4.0
+
+CONSTRAINS (on pay)
+3.0 - 3.5  Your Pay is $4000 monthly
+3.5 - 4.0  Your Pay is $6000 monthly
+4.0 - 4.5  Your Pay is $8000 monthly
+4.5 - 5.0  Your Pay is $11000 monthly
+
+
+
+10. CODING CHALLENGE (Module 8: Tutorial 1 - 5)
+
+Difficulty: Easy
+create a greetings function that when called prints the below 3 times
+>> Hello World
+>> Hello World
+>> Hello World
+
+Difficulty: Medium
+Create a greetings function that takes a name parameter and when called it prints the below
+>> Hello Daniel            // called with Daniel
+>> Hello Ebuka             // called with Ebuka
+>> Hello Nuhu              // called with Nuhu
+
+
+Difficulty: Hard (optional)
+Create a function that calculates the circumference of a cirle?  // C = 2πr  where π = 3.14159
+>> Enter the radius of the circle: 50
+>> C = 314.16
+
+Create a function that calculates the area of a triangle?  // A = (h*b)/2
+>> Enter h: 5
+>> Enter b: 10
+>> A = 25
+
+Create a function that calculates speed?  // Speed = distance  / time
+>> Enter distance: 165
+>> Enter time: 3
+>> Speed = 55
+
+
+
+
+11. CODING CHALLENGE (Module 8: Tutorial 6 - 10)
+
+a. Difficulty: Easy
+Create a function that returns the an integer value
+Create a function that returns a string value
+Create a function that returns a boolean value
+
+b. Difficulty: Medium
+Create a function that 
+- adds two numbers and returns the result
+- subtracts two numbers and returns the result
+
+c. Difficulty: Hard (optional)
+Create a function that converts fahrenheit to Celsius or Celsius to fahrenheit and then returns the result
+add a docString to these function (Attempt only if you watched yesterdays tutorial and you fully understand docStrings/docComments)
+
