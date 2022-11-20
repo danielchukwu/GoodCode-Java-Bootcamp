@@ -25,6 +25,17 @@ public class CC11 {
    }
 
    // c.
+   /**
+    * Function name: fahrenheitCelsiusConverter
+    *
+    * @param value           (double)
+    * @param conversionType  (double)
+    * @return                (double)
+    *
+    * Inside the Function:
+    * 1. Converts fahrenheit to Celsius when the second argument equals 'f'
+    * 2. Converts Celsius to fahrenheit when the second argument equals 'c'
+    */
    public static double fahrenheitCelsiusConverter(double value, char conversionType) {
       switch (conversionType){
          case ('f'):
@@ -55,6 +66,7 @@ public class CC11 {
       System.out.println("addNum Result = " + addNum + "\nsubNum Result = " + subNum);
 
       // c. Difficulty: Hard (optional)
+
       double result1 = fahrenheitCelsiusConverter(32, 'f');
       double result2 = fahrenheitCelsiusConverter(0, 'c');
       System.out.println(32 + "°F To Celsius = " + result1 + "°C");
