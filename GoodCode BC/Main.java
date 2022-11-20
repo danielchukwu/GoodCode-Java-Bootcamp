@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
-   // c.
    public static void main(String[] args) {
       // CODING CHALLENGE 12
       
    }
+   
 }
 
-// c. Difficulty: Hard
+// c. Difficulty: Hard (optional)
+// Create a game of rock paper scissors
