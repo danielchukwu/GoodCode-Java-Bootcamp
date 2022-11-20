@@ -591,3 +591,18 @@ c. Difficulty: Hard (optional)
 Create a function that converts fahrenheit to Celsius or Celsius to fahrenheit and then returns the result
 add a docString to these function (Attempt only if you watched yesterdays tutorial and you fully understand docStrings/docComments)
 
+
+
+12. CODING CHALLENGE (Module 8: Tutorial 11 - 16 and Module 9: Tutorial 1 - 3)
+
+a. Difficulty: Easy
+Create a function that returns a random number in between 0 and some number passed into the function. (Tip: use the Math.random)
+
+b. Difficulty: Medium
+Create a function that finds 
+- log of an input
+- the sine of an input
+- the square root of an input    (Tip: use the Math.)
+
+c. Difficulty: Hard (optional)
+Create a game of rock paper scissors
