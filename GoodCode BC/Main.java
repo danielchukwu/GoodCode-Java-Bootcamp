@@ -1,12 +1,8 @@
-import java.util.Scanner;
-
 public class Main {
+   // a
    public static void main(String[] args) {
-      // CODING CHALLENGE 12
+      // 13. CODING CHALLENGE (Module 10: Tutorial 1 - 12)
+      // a. Difficulty: Easy
       
    }
-   
 }
-
-// c. Difficulty: Hard (optional)
-// Create a game of rock paper scissors
