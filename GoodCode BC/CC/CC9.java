@@ -1,5 +1,7 @@
 package CC;
 
+import java.util.Scanner;
+
 public class CC9 {
    public static void main(String[] args) {
 
