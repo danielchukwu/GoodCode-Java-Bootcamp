@@ -596,13 +596,59 @@ add a docString to these function (Attempt only if you watched yesterdays tutori
 12. CODING CHALLENGE (Module 8: Tutorial 11 - 16 and Module 9: Tutorial 1 - 3)
 
 a. Difficulty: Easy
-Create a function that returns a random number in between 0 and some number passed into the function. (Tip: use the Math.random)
+Create a function that returns a random number in between 0 and some number passed into the function. (Tip: use the Math.<something>)
 
 b. Difficulty: Medium
 Create a function that finds 
-- log of an input
+- the log of an input
 - the sine of an input
-- the square root of an input    (Tip: use the Math.)
+- the square root of an input    (Tip: use the Math.<something>)
 
 c. Difficulty: Hard (optional)
 Create a game of rock paper scissors
+
+
+
+
+13. CODING CHALLENGE (Module 10: Tutorial 1 - 12)
+
+a. Difficulty: Easy
+Create a function that uses a for loop and 
+- prints 1, 2, 3, 4, 5, ..., 48, 49, 50,
+- prints 'Hello, World' 10 times
+- prints 5, 4, 3, 2, 1
+
+b. Difficulty: Medium
+Create a function that loops from 1 to 100 and prints Even where ever it encounters an even number.
+>> 1
+>> Even
+>> 3
+>> Even
+>> ...
+>> 99
+>> Even
+
+c. Difficulty: Hard (optional)
+Create a function that loops from 1 to 100 and 
+- prints FizzBuzz whenever it encounters a number perfectly divisible by 3 and 5 
+- prints fizz whenever it encounters a number perfectly divisible by 3
+- prints Buzz whenever it encounters a number perfectly divisible by 5
+E.g
+>> 1
+>> 2
+>> fizz
+>> 4
+>> Buzz
+>> fizz
+>> ...
+>> 14
+>> FizzBuzz
+
+Bonus
+what are the two types of loops?
+Ans: for loop and;
+     while loop
+
+When are for loops used as well as while loops?
+Ans: for loop: when you know in advance how many times a code needs to run
+     While loop: when you are not certain how many times a code needs to run
