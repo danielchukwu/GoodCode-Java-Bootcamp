@@ -1,7 +1,7 @@
 // JAVA - 17
 // Topic Variables
 
-public static class Main {
+public class Main {
 
    public static void main (String[] args){
       int number = 6;
