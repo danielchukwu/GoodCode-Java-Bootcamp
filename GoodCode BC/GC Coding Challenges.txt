@@ -1,10 +1,10 @@
-Coding Challenge
+1. CODING CHALLENGE (Module 1: Tutorial 1 - 2 && Module 2: Tutorial 1 - 4)
 
-Note: You are only required to do the one that has a difficulty of easy, anyother is optional.
+Note: You are only required to do the one that has a difficulty of easy 🍔, anyother is optional.
 
 1. Write a java program that prints the below knock knock joke to the console
 
-Difficulty: Easy / Medium
+Difficulty: Easy 🍔 / Medium ⚒️
 >> Knock, knock.
 >> Who’s there?
 >> Roach.
@@ -32,8 +32,10 @@ public class HelloJava {
 
 
 
-2. CODING CHALLENGE 
-a. Difficulty: Easy / Medium
+
+
+2. CODING CHALLENGE  (Module 2: Tutorial 5 - 9 AND Module 3: Tutorial 1 - 2)
+a. Difficulty: Easy 🍔 / Medium ⚒️
 Write a Java Program that prints the character of your first name as is shown below?
 >> DDDDDD
 >> DD   DD
@@ -45,7 +47,7 @@ Write a Java Program that prints the character of your first name as is shown be
 
 
 Write a Java Program that prints your first name in full as is shown below?
-b. Difficulty: Hard (Not Required)
+b. Difficulty: Hard 🪨 (Not Required)
 >> DDDDDD          AA          NNN     NN     IIIIII    EEEEEEEEE     LL
 >> DD   DD        AAAA         NNNN    NN       II        EE          LL
 >> DD   DD       AA  AA        NN NN   NN       II        EE          LL
@@ -72,8 +74,10 @@ public class HelloJava {
 
 
 
-3. CODING CHALLENGE 
-a. Difficulty: Easy / Medium
+
+
+3. CODING CHALLENGE  (Module 4: Tutorial 1 - 5)
+a. Difficulty: Easy 🍔 / Medium ⚒️
 Using a single variable of type int. write a program that prints
 >> Naira to Dollar Conversion
 >> Passengers in a really long bus: 59
@@ -82,7 +86,7 @@ Using a single variable of type int. write a program that prints
 >> Passengers in a really long bus: 49
 >> Passengers in a really long bus: 60
 
-b. Difficulty: Hard (Not Required)
+b. Difficulty: Hard 🪨 (Not Required)
 Using two variables of type decimal and decimal. Write a program that prints
 >> GoodCode Black Market Exchange Rate (Naira to Dollar Conversion)
 >> Exchange rate is now: 1 naira to 900  dollars
@@ -92,9 +96,12 @@ Using two variables of type decimal and decimal. Write a program that prints
 >> Exchange rate is now: 7.5 naira to 6,750 dollars
 
 
-4. CODING CHALLENGE
 
-a. Difficulty: Easy/Medium
+
+
+4. CODING CHALLENGE (Module 4: Tutorial 6 - 11)
+
+a. Difficulty: Easy 🍔/Medium ⚒️
 write a java program that uses the following variables (my name, my state of origin, where i live, my age, my height, my favorite alphabet), with the correct data type and variable naming convention. 
 Write a program that prints the below?
 
@@ -107,7 +114,7 @@ Write a program that prints the below?
 >> This program was written by 'Daniel'
 
 
-b. Difficulty: Hard
+b. Difficulty: Hard 🪨
 Using 8 variables and ONLY 1 print statement personalize the below bio?
 >> My name is Daniel. I'm 20 something years old, and I'm from Enugu.
 >> My favorite sport is Basketball. I play for at least 2 hours a day. When I'm tired, I like to watch movies.
@@ -118,9 +125,10 @@ Using 8 variables and ONLY 1 print statement personalize the below bio?
 
 
 
-5. CODING CHALLENGE
 
-a. Easy
+5. CODING CHALLENGE (Module 4: Tutorial 12 - 15)
+
+a. Easy 🍔
 Add the data type for the below lines of code?
 ? first = 50;
 ? second = "Daniel";
@@ -136,7 +144,7 @@ Tip: (If you are feeling confident don't use these tips)
 2 things are wrong with line 4.
 
 
-b. Medium (optional)
+b. Medium ⚒️ (optional)
 The below lines of code have some issues. Fix them
 int number = 5.2
 string name = 'your name'
@@ -149,15 +157,15 @@ What is the difference between the 'char' data and the 'String' data type?
 When do we use Char over String?
 
 
-6. CODING CHALLENGE
 
-a. Easy/Medium
+5.5
+a. Easy 🍔/Medium ⚒️
 Give me an example use case for the below data types?
 int, long
 float, double
 String, char
 
-b. Hard
+b. Hard 🪨
 What will be the output of the below lines of code if ran?
 double divisor = 5;
 divisor += 20;
@@ -178,7 +186,8 @@ divisor /= 2
 System.out.println("Paul George and Kawhi Leonard scored " + 24 + 34 + " points last night. What a duo.")
 
 
-6. CODING CHALLENGE 
+
+6. CODING CHALLENGE  (Module 4: Tutorial 16 - 20 AND  (Module 5: Tutorial 1 - 2)
 
 Final Project
 Build a food ordering system for NGK That takes users input and wprks as shown below
@@ -236,9 +245,11 @@ Build a food ordering system for NGK That takes users input and wprks as shown b
 
 
 
-6. CODING CHALLENGE (Module 6: Tutorial 1 - 5)
 
-a. Difficulty: Easy
+
+7. CODING CHALLENGE (Module 6: Tutorial 1 - 5)
+
+a. Difficulty: Easy 🍔
 What will be the result of the below code after being ran?
 
 boolean comparison1 = 2 > 3;
@@ -250,7 +261,7 @@ boolean comparison6 = 11 >= 11;
 boolean comparison7 = 8 <= 8;
 
 
-b. Difficulty: Medium
+b. Difficulty: Medium ⚒️
 Write a program that registers a user by taking username, password and confirm passord?
 Note: Password and confirm password have to be the same, if they aren't registration should'nt be successful.
 
@@ -267,7 +278,7 @@ Note: Password and confirm password have to be the same, if they aren't registra
 >> Passwords did not match    // Or "Passwords Matched!. Registration Successful." if they did match
 
 
-c. Difficulty: Hard
+c. Difficulty: Hard 🪨
 Write a Grading System Program that takes a the name and grade of a user and then shows the below?
 
 >> What is your name?
@@ -309,9 +320,10 @@ Write a Grading System Program that takes a the name and grade of a user and the
 
 
 
-7. CODING CHALLENGE (Module 6: Tutorial 5 - 10)
 
-a. Difficulty: Medium/Hard
+8. CODING CHALLENGE (Module 6: Tutorial 5 - 10)
+
+a. Difficulty: Medium ⚒️/Hard 🪨
 >> Create a Trivial Pursuit Program using java, use a Scoreboard to keep track of users response.
 >>
 >> What does “www” stand for in a website browser?  // World Wide Web
@@ -410,9 +422,10 @@ if percentage falls inbetween
 
 
 
-8. CODING CHALLENGE (Module 6: Tutorial 11 - 15)
 
-Difficulty: Easy/Medium
+9. CODING CHALLENGE (Module 6: Tutorial 11 - 15)
+
+Difficulty: Easy 🍔/Medium ⚒️
 Write a program that asks a user to input the month number they were born in (e.g 1 = January, 2 = Feburary e.t.c)
 and when they do so that month should be printed out as shown below (Note: Use a switch-case statement and not an if-else statement)
 
@@ -425,7 +438,7 @@ and when they do so that month should be printed out as shown below (Note: Use a
 >> Chukwu Daniel was given birth to in the month of May
 
 
-Difficulty: Hard
+Difficulty: Hard 🪨
 Write a program that asks a user to input
 - the month number they were born in (e.g 1 = January, 2 = Feburary, ...),   // use switch not if-else
 - the year they were born in (e.g 2005, 2000, ...),
@@ -453,9 +466,10 @@ Write a program that asks a user to input
 
 
 
-9. CODING CHALLENGE (Module 6: Tutorial 16 - 19)
 
-a. Difficulty: Easy/Medium
+10. CODING CHALLENGE (Module 6: Tutorial 16 - 19)
+
+a. Difficulty: Easy 🍔/Medium ⚒️
 Create a little CBT program that ask's questions as such shown below
 
 >> Enter Your Matric Number: 
@@ -504,7 +518,7 @@ Create a little CBT program that ask's questions as such shown below
 >> I know for a fact that you can do better than that. Carry over   // if score > 50% then print Wow, You know your stuff!. 
 
 
-b. Difficulty: Hard
+b. Difficulty: Hard 🪨
 Write a job interview simulation program  // (use delimeters for int and string values only if you know what i mean)
 
 What is your name?
@@ -542,22 +556,24 @@ CONSTRAINS (on pay)
 
 
 
-10. CODING CHALLENGE (Module 8: Tutorial 1 - 5)
 
-Difficulty: Easy
+
+11. CODING CHALLENGE (Module 8: Tutorial 1 - 5)
+
+Difficulty: Easy 🍔
 create a greetings function that when called prints the below 3 times
 >> Hello World
 >> Hello World
 >> Hello World
 
-Difficulty: Medium
+Difficulty: Medium ⚒️
 Create a greetings function that takes a name parameter and when called it prints the below
 >> Hello Daniel            // called with Daniel
 >> Hello Ebuka             // called with Ebuka
 >> Hello Nuhu              // called with Nuhu
 
 
-Difficulty: Hard (optional)
+Difficulty: Hard 🪨 (optional)
 Create a function that calculates the circumference of a cirle?  // C = 2πr  where π = 3.14159
 >> Enter the radius of the circle: 50
 >> C = 314.16
@@ -575,50 +591,52 @@ Create a function that calculates speed?  // Speed = distance  / time
 
 
 
-11. CODING CHALLENGE (Module 8: Tutorial 6 - 10)
+12. CODING CHALLENGE (Module 8: Tutorial 6 - 10)
 
-a. Difficulty: Easy
+a. Difficulty: Easy 🍔
 Create a function that returns the an integer value
 Create a function that returns a string value
 Create a function that returns a boolean value
 
-b. Difficulty: Medium
+b. Difficulty: Medium ⚒️
 Create a function that 
 - adds two numbers and returns the result
 - subtracts two numbers and returns the result
 
-c. Difficulty: Hard (optional)
+c. Difficulty: Hard 🪨 (optional)
 Create a function that converts fahrenheit to Celsius or Celsius to fahrenheit and then returns the result
 add a docString to these function (Attempt only if you watched yesterdays tutorial and you fully understand docStrings/docComments)
 
 
 
-12. CODING CHALLENGE (Module 8: Tutorial 11 - 16 and Module 9: Tutorial 1 - 3)
 
-a. Difficulty: Easy
+13. CODING CHALLENGE (Module 8: Tutorial 11 - 16 and Module 9: Tutorial 1 - 3)
+
+a. Difficulty: Easy 🍔
 Create a function that returns a random number in between 0 and some number passed into the function. (Tip: use the Math.<something>)
 
-b. Difficulty: Medium
+b. Difficulty: Medium ⚒️
 Create a function that finds 
 - the log of an input
 - the sine of an input
 - the square root of an input    (Tip: use the Math.<something>)
 
-c. Difficulty: Hard (optional)
+c. Difficulty: Hard 🪨 (optional)
 Create a game of rock paper scissors
 
 
 
 
-13. CODING CHALLENGE (Module 10: Tutorial 1 - 12)
 
-a. Difficulty: Easy
+14. CODING CHALLENGE (Module 10: Tutorial 1 - 12)
+
+a. Difficulty: Easy 🍔
 Create a function that uses a for loop and 
 - prints 1, 2, 3, 4, 5, ..., 48, 49, 50,
 - prints 'Hello, World' 10 times
 - prints 5, 4, 3, 2, 1
 
-b. Difficulty: Medium
+b. Difficulty: Medium ⚒️
 Create a function that loops from 1 to 100 and prints Even where ever it encounters an even number.
 >> 1
 >> Even
@@ -628,7 +646,7 @@ Create a function that loops from 1 to 100 and prints Even where ever it encount
 >> 99
 >> Even
 
-c. Difficulty: Hard (optional)
+c. Difficulty: Hard 🪨 (optional)
 Create a function that loops from 1 to 100 and 
 - prints FizzBuzz whenever it encounters a number perfectly divisible by 3 and 5 
 - prints fizz whenever it encounters a number perfectly divisible by 3
@@ -652,3 +670,120 @@ Ans: for loop and;
 When are for loops used as well as while loops?
 Ans: for loop: when you know in advance how many times a code needs to run
      While loop: when you are not certain how many times a code needs to run
+
+
+
+
+
+15. CODING CHALLENGE (Module 10: Tutorial 13 - 19)
+
+a. Difficulty: Easy 🍔
+i. Using a while loop create a program that prints 30, 29, 28, 27, ... 4, 3, 2, 1, STOP.
+
+ii. Using nested for loops, write a program that prints the below
+>> 0 0
+>> 0 1
+>> 0 2
+>> ...
+>> 0 9
+>> 1 0
+>> 1 1
+>> ...
+>> 9 7
+>> 9 8
+>> 9 9
+
+iii. Write a program that uses a while loop to print 1 to 20, But skips printing any odd numbers (e.g 1, 3, 5) and also stops the while loop if a number divisible by 11 is encountered. (Tip: requires break & continue)
+>> 2, 4, 6, 8, 10,
+
+
+
+b. Difficulty: Medium ⚒️
+Create a user login program that allows a user to enter thier username and password and if it's correct they successfully login, else they are prompted to try again 
+Welcome to Instagram
+
+username: dan
+password: password123
+Feedback: Username & Password Is Correct.
+
+username: daniel
+password: password123
+Feedback: Logging user in
+
+You've successfully logged into Instagram
+
+
+
+c. Difficulty Hard 🪨
+Create a guess the random number video game where there is a random number generated and you have only 3 tries to guess
+the number generated
+
+Welcome to guess the number game:
+
+A Random SECRETE NUMBER has been generated between 0 - 9: ?
+You Have Only 3 Lives/Tries.
+
+Make a Guess: 3
+Feedback: 3 is less than the secret Number
+
+Make a Guess: 8
+Feedback: 8 is greater than the secret Number
+
+Make a Guess: 5
+Feedback: 5 is greater than the secret Number
+
+Sorry, You Loose. The correct guess is actually 4    // if correct, print "Good Job, You Win. The correct guess is actually 4
+
+
+
+
+
+16. CODING CHALLENGE (Module 10: Tutorial 20 - 23)
+
+a. Difficulty: Easy
+create a function that prints from 99 down to 00 as shown below
+>> 9 9
+>> 9 8
+>> ...
+>> 1 2
+>> 1 1
+>> ...
+>> 0 1
+>> 0 0
+
+b. Difficulty: Medium / Hard
+Create a function that finds. Ask a user what they would like to calculate (e.g sine, log, square root) and then take an
+input and calculate it, Ask if they would like to continue calculation
+- the log of an input
+- the sine of an input
+- the square root of an input    (Tip: use the Math.<something>)
+
+>> Calculator
+
+>> What would you like to calculate? (sine, log square root)
+>> sine
+
+>> Which Number?
+>> 40
+
+>> sin(40) = 0.7451131604793488
+
+>> Would you like to use this calculator again? (yes or no)
+>> daef
+>> invalid input!
+
+>> Would you like to use this calculator again? (yes or no)
+>> yes
+
+>> What would you like to calculate? (sine, log square root)
+>> log
+
+>> Which Number?
+>> 40
+
+>> log(40) = 3.6888794541139363 
+
+>> Would you like to use this calculator again? (yes or no)
+>> no
+
+>> Turned Off Casio Calculator
