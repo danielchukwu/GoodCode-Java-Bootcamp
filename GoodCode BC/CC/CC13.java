@@ -1,105 +1,97 @@
 package CC;
 
+import java.util.Scanner;
+
 public class CC13 {
    // a.
-   public static void printNumbers1(int num) {
-      for (int i = 1; i <= num; i++) {
-         System.out.print(i + ", ");
-      }
-      System.out.println("\n");
+   private static int getRandomNumber(int num) {
+      double randomNumber = Math.random() * num;
+      return (int) randomNumber;    // (int) converts randomNumber from (double) to (int)
    }
-   public static void printHelloWorld() {
-      for (int i = 1; i <= 10; i++) {
-         System.out.println(i + " Hello World");
+
+   // b. 
+   // Log function
+   private static double findLog(double value) {
+      return Math.log(value);
+   }
+   // Sine function
+   private static double findSine(double value) {
+      return Math.sin(value);
+   }
+   // Square root function
+   private static double findSquareRoot(double value) {
+      return Math.sqrt(value);
+   }   
+
+   // c. 
+   // Get random pick for cpu. Either rock, paper or scissors
+   public static String getRandomPick() {
+      int cpu_guess = (int) Math.random() * 3;   // (int) says convert Math.random() * 3 return value in (double) to (int)
+      switch(cpu_guess) {
+         case (0): return "rock";
+         case (1): return "paper";
+         case (2): return "scissors";
+         default: return "";
       }
    }
-   public static void printNumbers2Reversed(int num) {
-      System.out.println("");
-      for (int i = num; i >= 1; i--) {
-         System.out.print(i + ", ");
+
+   // Print the Winner
+   public static void printWinner(String userPick, String cpuPick) {
+      System.out.println("User Picked: " + userPick + "\nCpu Picked: " + cpuPick);
+      if (userPick.equals(cpuPick)){
+         System.out.println("It's a draw.");
+      } else if (userPick.equals("rock") && cpuPick.equals("scissors")){
+         System.out.println("Rock smashes scissors. You WIN.");
+      } else if (userPick.equals("paper") && cpuPick.equals("rock")){
+         System.out.println("Paper covers rock. You WIN.");
+      } else if (userPick.equals("scissors") && cpuPick.equals("paper")){
+         System.out.println("Scissors cuts paper into pieces. You WIN.");
+      } else {
+         System.out.println("Wrong pick. You LOOSE.");
       }
-   }
-   // b.
-   public static void findAllEvenAndPrint(int range) {
-      for (int i = 1; i <= range; i++) {
-         if (i % 2 == 0){
-            System.out.println("Even");
-         } else {
-            System.out.println(i);
-         }
-      }
-   }
-   // c.
-   public static String fizzBuzz(int value) {
-      if (value % 3 == 0 && value % 5 == 0){ return "FizzBuzz"; } 
-      else if (value % 3 == 0){ return "Fizz"; } 
-      else if (value % 5 == 0){ return "Buzz"; }
-      else { return "None"; }
    }
 
    public static void main(String[] args) {
-      // CODING CHALLENGE 13 (Module 10: Tutorial 1 - 12)
+      // CODING CHALLENGE 13
       // a. Difficulty: Easy
-      printNumbers1(50);
-      printHelloWorld();
-      printNumbers2Reversed(5);
+      Scanner scan = new Scanner(System.in);
+      System.out.print("\nEnter any number: ");
+      int numberInput = scan.nextInt();
+
+      int randomNumResult = getRandomNumber(numberInput);
+      System.out.println("Random Number Between 0 and " + numberInput + " is = " + randomNumResult);
+      scan.close();
 
       // b. Difficulty: Medium
-      findAllEvenAndPrint(100);
-      System.out.println("\nWritten by Daniel.");
+      double r1 = findLog(50);
+      double r2 = findSine(90);
+      double r3 = findSquareRoot(25);
+      System.out.println("log50 = " + r1 + "\nsin(90) = " + r2 + "\n√25 = " + r3);
 
       // c. Difficulty: Hard (optional)
-      for (int i = 1; i <= 100; i++) {
-         String result = fizzBuzz(i);
-         if (result.equals("None")){
-            System.out.println(i);
-         } else {
-            System.out.println(result);
-         }
-      }
+      System.out.println("\nWelcome to a game of Rock Paper Scissors.");
+      Scanner sc = new Scanner(System.in);
+      System.out.print("\nEnter rock, paper or scissors: ");
+      String userPick = sc.nextLine();
+      String cpuPick = getRandomPick();       // function call
 
+      printWinner(userPick, cpuPick);         // function call
+      System.out.println("\nWritten By Daniel.\n");
+      sc.close();
    }
 }
 
-// 13. CODING CHALLENGE (Module 10: Tutorial 1 - 12)
 
-// a. Difficulty: Easy
-// Create a function that uses a for loop and 
-// - prints 1, 2, 3, 4, 5, ..., 48, 49, 50,
-// - prints 'Hello, World' 10 times
-// - prints 5, 4, 3, 2, 1
+// 13. CODING CHALLENGE (Module 8: Tutorial 11 - 16 and Module 9: Tutorial 1 - 3)
 
-// b. Difficulty: Medium
-// Create a function that loops from 1 to 100 and prints Even where ever it encounters an even number.
-// >> 1
-// >> Even
-// >> 3
-// >> Even
-// >> ...
-// >> 99
-// >> Even
+// a. Difficulty: Easy 🍔
+// Create a function that returns a random number in between 0 and some number passed into the function. (Tip: use the Math.<something>)
 
-// c. Difficulty: Hard (optional)
-// Create a function that loops from 1 to 100 and 
-// - prints fizzbuzz whenever it encounters a number perfectly divisible by 3 and 5 
-// - prints fizz whenever it encounters a number perfectly divisible by 3
-// - prints buzz whenever it encounters a number perfectly divisible by 5
-// E.g
-// >> 1
-// >> 2
-// >> fizz
-// >> 4
-// >> buzz
-// >> fizz
-// >> ...
-// >> 14
-// >> fizzbuzz
+// b. Difficulty: Medium ⚒️
+// Create a function that finds 
+// - the log of an input
+// - the sine of an input
+// - the square root of an input    (Tip: use the Math.<something>)
 
-// Bonus
-// what are the two types of loops?
-// Ans: for loop and;
-//      while loop
-
-// When are for loops used as well as while loops?
-// Ans: for loop: when you know in advance how many times a code needs to run
-//      While loop: when you are not certain how many times a code needs to run
+// c. Difficulty: Hard 🪨 (optional)
+// Create a game of rock paper scissors
