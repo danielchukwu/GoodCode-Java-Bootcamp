@@ -1,93 +1,114 @@
 package CC;
 
+import java.util.Scanner;
+
 public class CC11 {
-   // a.
-   public static int getNumber(){
-      return 5;
+   // a. Easy
+   public static void printHelloWorld(){
+      System.out.println("Hello world!");
    }
-   public static String getText(){
-      return "Hello World.";
+
+   // b. Medium
+   public static void greetUser(String name){
+      System.out.println("Hello " + name);
    }
-   public static boolean getBoolean(){
-      return true;
+
+   // c. Hard
+   // i
+   public static void calculateCircumferenceOfACircle(double r){
+      double PI = 3.14159;
+      double solution = 2 * PI * r;
+      System.out.println("C = " + solution);
+   }
+   // ii
+   public static void calculateAreaOfATriangle(int h, int b){
+      double solution = (h * b) / 2;
+      System.out.println("A = " + solution);
+   }
+   // iii
+   public static void calculateSpeed(int distance, int time){
+      double solution = distance / time;
+      System.out.println("Speed = " + solution);
    }
    
-   // b.
-   // Add two numbers function
-   public static double addTwoNumbers(double a, double b) {
-      double solution = a + b;
-      return solution;
-   }
-   // Subtract two numbers function
-   public static double subTwoNumbers(double a, double b) {
-      double solution = a - b;
-      return solution;
-   }
 
-   // c.
-   /**
-    * Function name: fahrenheitCelsiusConverter
-    *
-    * @param value           (double)
-    * @param conversionType  (double)
-    * @return                (double)
-    *
-    * Inside the Function:
-    * 1. Converts fahrenheit to Celsius when the second argument equals 'f'
-    * 2. Converts Celsius to fahrenheit when the second argument equals 'c'
-    */
-   public static double fahrenheitCelsiusConverter(double value, char conversionType) {
-      switch (conversionType){
-         case ('f'):
-            // (32°F − 32) × 5/9 = 0°C
-            double fahrenheitToCelsius = (value - 32) * 5/9;
-            return fahrenheitToCelsius;
-         case ('c'):
-            // (0°C × 9/5) + 32 = 32°F
-            double celsiusToFahrenheit = (value * 9/5) + 32;
-            return celsiusToFahrenheit;
-         default:
-            return 0.0;
-      }
-   }
 
    public static void main(String[] args) {
-      // CODING CHALLENGE 11
 
+      // CODING CHALLENGE 10
       // a. Difficulty: Easy
-      int num = getNumber();
-      String text = getText();
-      boolean bool = getBoolean();
-      System.out.println("Num: " + num + "\nText: " + text + "\nBool: " + bool);
+      printHelloWorld();
+      printHelloWorld();
+      printHelloWorld();
+
+      System.out.println("\nWritten by Daniel");
+
 
       // b. Difficulty: Medium
-      double addNum = addTwoNumbers(10, 14.5);
-      double subNum = subTwoNumbers(4, -5.5);
-      System.out.println("addNum Result = " + addNum + "\nsubNum Result = " + subNum);
+      greetUser("Daniel");
+      greetUser("Ebuka");
+      greetUser("Nuhu");
 
-      // c. Difficulty: Hard (optional)
-
-      double result1 = fahrenheitCelsiusConverter(32, 'f');
-      double result2 = fahrenheitCelsiusConverter(0, 'c');
-      System.out.println(32 + "°F To Celsius = " + result1 + "°C");
-      System.out.println(0  + "°C To Fahrenheit = " + result2 + "°F");      
-      
       System.out.println("\nWritten by Daniel");
+
+
+      // c. Difficulty: Hard
+      // i
+      Scanner scan = new Scanner(System.in);
+      System.out.print("Enter the radius of the circle: ");
+      double radius = scan.nextDouble();                              // Receive User Input
+      calculateCircumferenceOfACircle(radius);                        // Function Call
+      System.out.println("\nWritten by Daniel.");
+
+      // ii
+      System.out.print("Enter h: ");
+      int h = scan.nextInt();
+      System.out.print("Enter b: ");
+      int b = scan.nextInt();
+      calculateAreaOfATriangle(h, b);
+
+      System.out.println("\nWritten by Daniel.");
+
+
+      // iii
+      System.out.print("Enter distance: ");
+      int distance = scan.nextInt();
+      System.out.print("Enter time: ");
+      int time = scan.nextInt();
+      calculateSpeed(distance, time);
+
+      System.out.println("\nWritten by Daniel.");
+
+      scan.close();
    }
 }
 
-// 11. CODING CHALLENGE (Module 8: Tutorial 6 - 10)
+// 11. CODING CHALLENGE (Module 8: Tutorial 1 - 5)
 
 // a. Difficulty: Easy
-// Create a function that returns the an integer value
-// Create a function that returns a string value
-// Create a function that returns a boolean value
+// create a greetings function that when called prints the below 3 times
+// >> Hello World
+// >> Hello World
+// >> Hello World
 
 // b. Difficulty: Medium
-// Create a function that 
-// - adds two numbers and returns the result
-// - subtracts two numbers and returns the result
+// Create a greetings function that takes a name parameter and when called it prints the below
+// >> Hello Daniel            // called with Daniel
+// >> Hello Ebuka             // called with Ebuka
+// >> Hello Nuhu              // called with Nuhu
+
 
 // c. Difficulty: Hard (optional)
-// Create a function that converts fahrenheit to Celsius or Celsius to fahrenheit and then returns the result
-// add a docString to these function (Attempt only if you watched yesterdays tutorial and you fully understand docStrings/docComments)
+// Create a function that calculates the circumference of a cirle?  // C = 2πr  where π = 3.14159
+// >> Enter the radius of the circle: 50
+// >> C = 314.16
+
+// Create a function that calculates the area of a triangle?  // A = (h*b)/2
+// >> Enter h: 5
+// >> Enter b: 10
+// >> A = 25
+
+// Create a function that calculates speed?  // Speed = distance  / time
+// >> Enter distance: 165
+// >> Enter time: 3
+// >> Speed = 55
