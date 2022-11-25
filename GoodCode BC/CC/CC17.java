@@ -77,3 +77,53 @@ public class CC17 {
       scan.close();
    }
 }
+
+
+17. CODING CHALLENGE (Module 12: Tutorial 1 - 7)
+
+// a. Difficulty: Easy 🍔
+// Create 4 different arrays with 4 different data types (e.g int, double, char, String) for each array.
+// Then print out an element from each of the array(tip: using index)
+
+// b. Difficulty: Medium ⚒️
+// Loop through the below array and print out each of the items in the array(Note: In order and In Reverse order)
+// String[] players = {"rashford", "pulisic", "kane", "vinicius", "lewandowski", "muller", "neymar", "salah", "gabriel", "halland"};
+
+// >> In Order
+// >> rashford
+// >> pulisic
+// >> ...
+// >> halland
+
+// >> In Reverse Order
+// >> halland
+// >> gabriel
+// >> ...
+// >> rashford
+
+// c. Difficulty: Hard 🪨
+// You have a store with the following items 
+// products = {"milk", "milo", "bread", "cabin", "sugar", "cornflakes", "golden morn", "soap", "tooth paste", "cream"}
+// productPrices ={ 1200, 1200,  600,     550,     450,       1100,          1100,       400,       350,        850}
+
+// >> Welcome to Daniels Store
+
+// >> What would you like to buy?
+// >> rice
+
+// >> Sorry we don't have rice.
+
+// >> What would you like to buy
+// >> milk
+// >> Total Cost = 1200
+
+// >> What else would you like to buy?  (Enter 'done' to stop)
+// >> soap
+// >> Cost = 400
+
+// >> What else would you like to buy?  (Enter 'done' to stop)
+// >> done 
+
+// >> Total Cost = N1600
+
+// >> Thank you for shopping at Daniel's Store
