@@ -951,9 +951,123 @@ Write a program that uses two-dimensional arrays (3 rows & 4 columns) to store u
 
 
 
+21. CODING CHALLENGE (Module 13: Tutorial 1 - 8)
+
+a. Difficult: Medium/ Somewhat Hard
+Create a program that generates selects a random word in an array containing 10 words of your choice. The user is expected to then guess each letter until they guess it all. if they fail 5 times it's GAMEOVER.
+
+10 words
+{"background", "earthlings", "category", "united", "masterful", "something", "randomize", "crazy", "swordplay", "terminals"}
+
+>> A random word has been chosen
+
+>> _ _ _ _ _
+>> Guess a letter in the random word:
+>> b
+>> Wrong. Fails: 1/5
+
+>> c _ _ _ _
+>> Guess a letter in the random word:
+>> y
+>> Correct.
+
+>> c _ _ _ y
+>> Guess a letter in the random word:
+>> r
+>> Correct.
+
+>> c r _ _ y
+>> Guess a letter in the random word:
+>> z
+>> Correct.
+
+>> c r _ z y
+>> Guess a letter in the random word:
+>> a
+>> Correct.
+
+>> c r a z y
+>> Congrats. You Win!
+
+
+
+b. Difficulty: Hard
+Create a game of tic tac toe (X and O)
+_ _ _ 
+_ _ _ 
+_ _ _ 
+
+Welcome to Daniels Tic Tac Toe program. 
+
+Turn: X
+   pick a row and column number: 0 0
+X _ _ 
+_ _ _ 
+_ _ _ 
+
+
+Turn: O
+   pick a row and column number: 1 0 
+X _ _ 
+O _ _ 
+_ _ _ 
+
+
+Turn: X
+   pick a row and column number: 1 1
+X _ _ 
+O X _ 
+_ _ _ 
+
+
+Turn: O
+   pick a row and column number: 2 0
+X _ _ 
+O X _ 
+O _ _ 
+
+
+Turn: X
+   pick a row and column number: 2 2
+X _ _ 
+O X _ 
+O _ X 
+
+X has won!
 
 
 
 
 
+22. CODING CHALLENGE (Module 14: Tutorial 1 && Module 15: Tutorial 1)
 
+Main Project
+Create a game of Hangman using all that you've learnt so far.
+   
+   Guess: h
+
+    +---+
+    |   |
+    0   |
+   /|\  |
+   /   |
+        |
+  ==========
+
+  word: _ h _ _ _
+
+
+  Guess: u
+
+    +---+
+    |   |
+    0   |
+   /|\  |
+   / \  |
+        |
+  ==========
+
+  word: _ h _ _ 
+
+  YOU LOST!       // or YOU WON! (if they won that is)
+  
