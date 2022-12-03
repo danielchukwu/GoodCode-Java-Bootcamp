@@ -47,7 +47,7 @@ Write a Java Program that prints the character of your first name as is shown be
 
 
 Write a Java Program that prints your first name in full as is shown below?
-b. Difficulty: Hard 🪨 (Not Required)
+b. Difficulty: Hard 🪨 🪨 (Not Required)
 >> DDDDDD          AA          NNN     NN     IIIIII    EEEEEEEEE     LL
 >> DD   DD        AAAA         NNNN    NN       II        EE          LL
 >> DD   DD       AA  AA        NN NN   NN       II        EE          LL
@@ -910,13 +910,13 @@ ii. Using nested loops loop through the above 2d array and add 5 to each of the 
 
 20. CODING CHALLENGE (Module 12: Tutorial 21 - 26)
 
-a. Difficulty: Easy
+a. Difficulty: Easy 🍔
 Create a function that takes a one-dimensional array as an argument and then fills it up with random numbers from 1 - 100.
 >> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]               // integer array empty
 >> [77, 10, 58, 44, 52, 89, 43, 75, 19, 22]     // array filled up with random numbers
 
 
-b. Difficulty: Medium
+b. Difficulty: Medium ⚒️
 Create a function that takes a two-dimensional array as an argument and then fills it up with random numbers from 1 - 100.
 >> [0, 0, 0]
 >> [0, 0, 0]
@@ -944,7 +944,7 @@ Write a program that uses two-dimensional arrays (3 rows & 4 columns) to store u
 >> Final Result:
 >>        username |  password   |     email       |    bio      | 
 >> user1: [daniel,  password12345, daniel@gmail.com, it's all good]
->> user2: [albert,  pass123wordGo, albert@gmail.com, life is easy ohh]
+>> user2: [albert,  pass123wordGo, albert@gmail.com, life is easy 🍔 ohh]
 >> user3: [imoney,  seeMoneyhere_, imoney@gmail.com, I want to feel like i cashed out]
 
 
@@ -953,7 +953,7 @@ Write a program that uses two-dimensional arrays (3 rows & 4 columns) to store u
 
 21. CODING CHALLENGE (Module 13: Tutorial 1 - 8)
 
-a. Difficult: Medium/ Somewhat Hard
+a. Difficult: Medium ⚒️/ Somewhat Hard 🪨
 Create a program that generates selects a random word in an array containing 10 words of your choice. The user is expected to then guess each letter until they guess it all. if they fail 5 times it's GAMEOVER.
 
 10 words
@@ -991,7 +991,7 @@ Create a program that generates selects a random word in an array containing 10 
 
 
 
-b. Difficulty: Hard
+b. Difficulty: Hard 🪨
 Create a game of tic tac toe (X and O)
 _ _ _ 
 _ _ _ 
@@ -1071,3 +1071,68 @@ Create a game of Hangman using all that you've learnt so far.
 
   YOU LOST!       // or YOU WON! (if they won that is)
   
+
+
+
+
+23. CODING CHALLENGE (Module 16: Tutorial 1 - 8)
+
+a. Difficulty: Easy 🍔
+Create a Human Class with at least 4 variables and then create at least 2 objects from the class. (Get Creative)
+Then make sure to print the below
+
+>> Hello there, My name is <name>
+>> Ethnicity: <ethnicity>
+>> Gender: <gender>
+>> Day Of Birth: <day>
+>> Height: <height>cm
+>> Christian: <true/false>
+
+
+b. Difficulty: Medium ⚒️
+Create a Human Class with at least 4 variables and a constructor that helps initiate the variables when called. (Get Creative)
+Then make sure to print the below
+
+>> Hello there, My name is <name>
+>> Ethnicity: <ethnicity>
+>> Gender: <gender>
+>> Day Of Birth: <day>
+>> Height: <height>cm
+>> Christian: <true/false>
+
+
+
+
+24. CODING CHALLENGE (Module 16: Tutorial 11 - 20)
+
+a. Difficulty: Easy
+Create a class Animal with the attributes species, age, height (and make them private), add a constructor in this class and then add setter and getter methods for the attributes?
+
+b. Difficulty: Medium
+Add a copy constructor to the above (question a.) Animal class
+
+
+
+
+
+25. CODING CHALLENGE (Module 16: Tutorial 21 - 30)
+a. Difficult: Easy/Medium
+Create a class Student where one of the attributes is an array and also create a getter and setter methods for the classes attributes. 
+e.g Student class
+     - name
+     - level
+     - gpa
+     - courses    (Should be an array)
+b. 
+Add a copy constructor to the Student class that 
+c. 
+Add a toString method
+d. 
+Lastly create 4 Student objects and print out those objects 
+
+
+
+
+
+
+
