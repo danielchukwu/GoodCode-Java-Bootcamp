@@ -1116,6 +1116,7 @@ Add a copy constructor to the above (question a.) Animal class
 
 
 25. CODING CHALLENGE (Module 16: Tutorial 21 - 30)
+
 a. Difficult: Easy/Medium
 Create a class Student where one of the attributes is an array and also create a getter and setter methods for the classes attributes. 
 e.g Student class
@@ -1133,6 +1134,13 @@ Lastly create 4 Student objects and print out those objects
 
 
 
+26. CODING CHALLENGE (Module 16: Tutorial 31 - 40)
+a.
+Create a car class with the following attributes (Make, Price, Year, Color, Parts (an Array of car parts))
+b.
+Add a constructor, a copy constructor, setters and getters, a toString method
+c. 
+Create a dealership class that manages the Car class you created above, add setters and getters to the dealership class
 
 
 
