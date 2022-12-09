@@ -1,0 +1,31 @@
+What is a Stack Data Structure?
+A stack data structure is a data structure that follows LIFO Principle. (Last In First Out)
+
+Give us an example use case of this data structure in a real life scenario
+- Stacking of dishes
+- Opening Google Chrome tabs
+
+
+Operations performed with stacks
+- Insert (Push)
+- Remove (Pop)
+
+
+
+Queue
+What is the Queue Data structure?
+This is a data structure that follows the FIFO principle. (First In First Out)
+
+- Insert (Enqueue) and;
+- Remove (Dequeue)
+
+You might not be asked to write a code
+Maybe you'll be asked something like
+Describe how to enqueue an Item to a queue data structure
+
+
+What is Complexity Analysis?
+It is just a system used to test the performance of an algorithm
+
+Space complexity
+Time Complexity
