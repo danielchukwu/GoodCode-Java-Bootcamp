@@ -1163,6 +1163,11 @@ Add a toString method to the dealership class that prints all the cars in the de
 
 
 
+28. CODING CHALLENGE (Module 17: Tutorial 1 - 5)
+
+a. Create a Vending Machine program (Tip: As we did in today's tutorial video)
+
+
 
 
 
