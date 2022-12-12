@@ -1,0 +1,182 @@
+{
+   // Use IntelliSense to learn about possible attributes.
+   // Hover to view descriptions of existing attributes.
+   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Launch Current File",
+         "request": "launch",
+         "mainClass": "${file}"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC10",
+         "request": "launch",
+         "mainClass": "CC.CC10",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC11",
+         "request": "launch",
+         "mainClass": "CC.CC11",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC13",
+         "request": "launch",
+         "mainClass": "CC.CC13",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC15",
+         "request": "launch",
+         "mainClass": "CC.CC15",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC16",
+         "request": "launch",
+         "mainClass": "CC.CC16",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC17",
+         "request": "launch",
+         "mainClass": "CC.CC17",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC18",
+         "request": "launch",
+         "mainClass": "CC.CC18",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC19",
+         "request": "launch",
+         "mainClass": "CC.CC19",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC20",
+         "request": "launch",
+         "mainClass": "CC.CC20",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC21A",
+         "request": "launch",
+         "mainClass": "CC.CC21A",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC21B",
+         "request": "launch",
+         "mainClass": "CC.CC21B",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC22",
+         "request": "launch",
+         "mainClass": "CC.CC22",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC23Main",
+         "request": "launch",
+         "mainClass": "CC.CC23Main",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC24Main",
+         "request": "launch",
+         "mainClass": "CC.CC24Main",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC25Main",
+         "request": "launch",
+         "mainClass": "CC.CC25Main",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC26Main",
+         "request": "launch",
+         "mainClass": "CC.CC26Main",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC27Main",
+         "request": "launch",
+         "mainClass": "CC.CC27Main",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch CC28Main",
+         "request": "launch",
+         "mainClass": "CC.CC28Main",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch HelloJava",
+         "request": "launch",
+         "mainClass": "CC.HelloJava",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch DeadLock",
+         "request": "launch",
+         "mainClass": "DeadLock",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch Demo",
+         "request": "launch",
+         "mainClass": "Demo",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch Hangman",
+         "request": "launch",
+         "mainClass": "JavaMiniProjects.Hangman",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch TicTacToe",
+         "request": "launch",
+         "mainClass": "JavaMiniProjects.TicTacToe",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      },
+      {
+         "type": "java",
+         "name": "Launch Main",
+         "request": "launch",
+         "mainClass": "Main",
+         "projectName": "GoodCode Java Bootcamp_9ab61bcb"
+      }
+   ]
+}
