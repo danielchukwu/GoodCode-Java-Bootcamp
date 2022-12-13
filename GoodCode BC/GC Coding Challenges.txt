@@ -1315,7 +1315,81 @@ public static void main(String[] args) {
 
 
 
+31. CODING CHALLENGE (Module 18: Tutorial 21 - 30)
+a. Difficulty: Easy
+The below code is supposed to convert all the numbers below the diagonal of a 2D Array to 0
+[1, 2, 3]        [1, 2, 3]
+[8, 6, 4]  --->  [0, 6, 4]
+[4, 5, 6]        [0, 0, 6]
 
+But instead if we run the below code it crashes. Now using a debugger tool fix up our code
+public static void main(String[] args) {
+   int[][] matrix = new int[][] {
+      {1, 2, 3},
+      {8, 6, 4},
+      {4, 5, 6},
+   };
+
+   for (int i=0; i < matrix.length; i++){
+      for (int j=0; j < matrix[i].length; i++) {
+         matrix[i][j] = 0;
+      }
+   }
+
+   printArray(matrix);
+}
+
+
+b. Difficulty: Medium
+The below code is supposed to transpose a matrix
+[1, 2]        [1, 3]
+[3, 4]  --->  [2, 4]
+
+But instead it doesn't. Using a debugger tool fix up our code
+public static void main(String[] args) {
+   int[][] matrix = new int[][] {
+      {1, 2, 3},
+      {4, 5, 6},
+      {7, 8, 9},
+   };
+
+   for (int i=0; i < matrix.length; i--){
+      for (int j=0; j < matrix[i].length; j++) {
+         matrix[i][j] = matrix[j][i];
+      }
+   }
+
+   printArray(matrix);
+}
+
+
+c. Difficulty: Hard
+The below code is supposed to print 0 across the diagonal
+[_, _, _]        [O, _, X]
+[_, _, _]  --->  [_, O, _]
+[_, _, _]        [X, _, 0]
+
+But instead it prints
+The below code is supposed to print 0 across the diagonal
+[_, _, _]        [X, _, O]
+[_, _, _]  --->  [_, X, _]
+[_, _, _]        [O, _, X]
+
+public static void main(String[] args) {
+   char[][] array = new char[][] {
+      {'_', '_', '_'},
+      {'_', '_', '_'},
+      {'_', '_', '_'},
+   };
+
+   for (int i=0; i < array.length; i++){
+      array[i][2-i] = 'O';
+      array[2-i][2-i] = 'X';
+   }
+
+   printArray(array);
+   System.out.println("O WINS!");
+}
 
 
 
