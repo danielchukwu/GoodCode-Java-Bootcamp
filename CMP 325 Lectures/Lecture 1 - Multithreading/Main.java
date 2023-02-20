@@ -56,6 +56,7 @@ public class Main implements Runnable {
       thread.start();
       System.out.println("This code is outside of the thread");
    }
+
    public void run() {
       System.out.println("This code is running in a thread");
    }
@@ -89,8 +90,8 @@ public class Main extends Thread {
 // Avoiding Concurrency Problems
 // To avoid concurrency problems, it is best to share as few attributes between threads as possible. If attributes need to be shared, one possible solution is to use the isAlive() method of the thread to check whether the thread has finished running before using any attributes that the thread can change.
 
-Example
-Use isAlive() to prevent concurrency problems:
+// Example
+// Use isAlive() to prevent concurrency problems:
 
 public class Main extends Thread {
    public static int amount = 0;
