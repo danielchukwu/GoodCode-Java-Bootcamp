@@ -1,0 +1,5 @@
+What are Software Design Patterns?
+
+Design patterns are reusable solutions to common software design problems. They provide a way to describe a design problem and its corresponding solution in a clear and concise manner. They aren't specific to any programming language
+
+
