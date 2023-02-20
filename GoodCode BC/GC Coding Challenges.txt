@@ -1396,3 +1396,27 @@ public static void main(String[] args) {
 
 
 
+
+32. CODING CHALLENGE (Module 18: Tutorial 31 - 40)
+a. Difficulty: Easy
+Write a code that simulates the below types of unchecked exceptions
+NullPointerException
+ArrayIndexOutOfBoundsException
+InputMismatchException
+
+
+b. Difficulty: Medium 
+Write a program that reads a text file with the below content
+Davido
+Wizkid
+Rema
+Buju
+Fireboy
+
+and prints each line using a while loop
+
+
+
+
+
+
